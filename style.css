@@ -37,7 +37,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -140,7 +140,7 @@ input,button{
 }
 
 .todo-item >    .task[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .delete .todo-img {
@@ -156,19 +156,19 @@ input,button{
 /* Completed */
 
 .todo#completed-tasks .task {
-  text-decoration: line-through
+  text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 
 .todo .todo-item .task[type=text] {
-  display: none
+  display: none;
 }
 
 .todo .todo-item.edit-mode .task[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo .todo-item.edit-mode .task {
